@@ -1,9 +1,9 @@
-# Blockchain social Network 
+# Blockchain social Network :astronaut:
 
 ## Features
 
 
-## Dependencies
+## Dependencies :muscle:
 - [x] NodeJs
 - [x] Ganache ( Personal Blockchain Network / Framework)
 - [x] Truffle Framework (to develop smart contracts using **SOLIDITY** )
