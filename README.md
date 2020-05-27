@@ -13,7 +13,7 @@
     - [x] **truffle migrate --reset**
 
 ## Dependencies :muscle:
-- [x] NodeJs
+- [x] NodeJs , web3js
 - [x] Ganache ( Personal Blockchain Network / Framework)
 - [x] Truffle Framework (to develop smart contracts using **SOLIDITY** )
 - [x] Metamask Google chrome extension
