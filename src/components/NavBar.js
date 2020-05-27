@@ -1,6 +1,6 @@
 import React , {Component} from 'react';
 import avatar from '../images/download.png';
-import Identicon from 'identicon';
+
 
 class NavBar extends Component{
     render(){
@@ -25,7 +25,7 @@ class NavBar extends Component{
                              src={avatar} />
                         :<span></span> }
                 </li>
-                        </ul>
+                </ul>
             </nav>
         );
     }

@@ -11,6 +11,8 @@
     - [x] **truffle test** ( to run tests on the test suite)
 - [x] Deploying fresh copy / new copy to block chain
     - [x] **truffle migrate --reset**
+- [x] For accessing truffle console
+    - [x] **truffle console**
 
 ## Dependencies :muscle:
 - [x] NodeJs , web3js
