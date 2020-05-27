@@ -1,4 +1,6 @@
 import React , {Component} from 'react';
+import avatar from '../images/download.png';
+import Identicon from 'identicon';
 
 class NavBar extends Component{
     render(){
@@ -11,9 +13,19 @@ class NavBar extends Component{
                 >
                     BlockChain Social Network
                 </a>
+                <ul className="navbar-nav px-3">
                 <li className="nav-item text-nowrap d-none d-sm-none d-sm-block">
-                    <small id="account">{this.props.account}</small>
+                    <small className="text-secondary">
+                        <small id="account">{this.props.account}</small>
+                    </small>
+                    {this.props.account ?
+                        <img className="ml-2"
+                             height="30"
+                             width="30"
+                             src={avatar} />
+                        :<span></span> }
                 </li>
+                        </ul>
             </nav>
         );
     }
