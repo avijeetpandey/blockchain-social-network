@@ -1,7 +1,10 @@
 # Blockchain social Network :astronaut:
 
 ## Features
-
+- [x] User can create post
+- [x] User can list all the posts on the social network
+- [x] User can tip (pay) the posts on the social network
+- [x] User gets notified upon ethereum payment
 
 ## Dependencies :muscle:
 - [x] NodeJs
